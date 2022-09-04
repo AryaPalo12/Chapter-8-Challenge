@@ -1,0 +1,326 @@
+textarea {
+    resize: none;
+    word-break: break-all;
+}
+
+.wrapper{
+    background: #f1a3c4;
+    padding:10px;
+    margin:0;
+}
+
+.boxStyle{
+    border: 1px solid white;
+    background-color: #181717d5;
+    box-shadow: 5px 5px black;
+    color: black;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 100%;
+    padding: 15px;
+    cursor:pointer;
+}
+
+.blogTitle-full{
+    font-family:'Arial';
+    color: rgb(195, 223, 247);
+    background: #f1a3c4;
+    margin-top:10px;
+    padding: 20vh 10px;
+}
+
+.boxStyle-first{
+    border: 1px solid white;
+    background-color: #c0b7b7e8;
+    border-radius: 15px;
+    margin: 10px;
+    max-width: 100%;
+    padding: 40px;
+    height : 300px
+}
+
+.titleFont-first{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(75, 46, 46);
+    max-width: 65%;
+    margin-bottom: 5px;
+}
+
+.articleFont-first{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: rgb(82, 24, 24);
+}
+
+.titleFont{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    max-width: 85%;
+    margin-bottom: 5px;
+}
+
+.home-button {
+    margin-top : 6px!important;
+    margin-left: 10px!important;
+}
+
+.no-decor {
+    text-decoration: none;
+    color: pink;
+    font-size : 18px;
+    font-weight: bold;
+}
+
+.spacing{
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.articleFont{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.blogTitle{
+    font-family:'Arial';
+    color: white;
+    background : url('./Images/Blog\ walpaper.jpg');
+    margin : -10px;
+    padding: 70px 0px;
+}
+
+.blog-background {
+    background : url('./Images/Blog\ walpaper.jpg');
+    background-size: cover;
+    color : white;
+    font-size : 18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.blog-form {
+    width: 50%;
+    background :rgba(0, 0, 0, 0.712);
+    margin: auto;
+    border-radius: 14px;
+}
+
+.blog-form input {
+    width: 80%;
+    text-align: initial!important;
+}
+
+.blog-form-body {
+    height: 300px;
+    text-align: start;
+    word-wrap: normal;
+    width: 80%;
+}
+
+.blogTitle h1{
+    font-size: 56px;
+    padding-top: 30px;
+}
+
+.blogTitle p{
+    padding-top : 20px;
+    padding-bottom: 80px;
+}
+
+.dropdown-margin {
+    margin-left: 1em;
+}
+
+.longDisplay{
+    grid-column: 1 /span 3;
+}
+
+.gridDisplay{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding : 10px;
+    margin-top : -60px;
+}
+
+.image{
+    max-width: 240px;
+    max-height: 240px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.nav-space{
+    margin : 0px 10px 0px 10px;
+}
+
+.greeting{
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 10px;
+}
+
+.form-div {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    margin: 50px auto 0px auto;
+    padding : 10px;
+    background-color: aliceblue;
+    border : 2px solid limegreen;
+    border-radius: 14px;
+    font-size: 20px;
+    max-width: 40%;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.178);
+    color:rgba(168, 72, 72, 0.753);
+}
+
+.form-div input{
+    margin: 10px 0px 15px 0px;
+    width: 90%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background: rgb(128, 128, 128, 0.5);
+    color :black;
+    height: 2.5em;
+    border-radius: 6px;
+}
+
+.form-spacing {
+    line-height: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.w-85 {
+    width:85% !important;
+    margin: 20px 0px 20px 20px
+}
+
+.w-80 {
+    width:80% !important;
+    margin-top: 2em;
+    margin-bottom : 4em;
+}
+
+.w-80-2 {
+    width:80% !important;
+    margin-top: 2em;
+    margin-bottom : 1em;
+}
+
+.form-bg{
+    padding: 30px 0px 30px 0px;
+    background-color: cornflowerblue;
+}
+
+.blog-heading{
+    color: white;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.registration {
+    background-color: rgba(155, 219, 155, 0.596);
+    height: 92vh;
+}
+
+.register-page{
+    display: flex;
+    width: 85%;
+    margin: auto;       
+}
+
+.register-form {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 40%;
+}
+
+.register-box {
+    border-radius: 8px;
+}
+
+.register-box label {
+    font-weight: bold;
+    color:rgb(85, 39, 192);
+    margin-top: 0.75em;
+    font-size: 1.5em;
+}
+
+.register-margin {
+    margin-top: 1.25em;
+
+}
+
+.register-box input {
+    border-radius : 10px;
+    margin : 1.25em 0px;
+    width: 80%;
+    box-shadow : 3px 3px rgba(127, 255, 212, 0.486);
+}
+
+.small-text{
+    font-size : 12px;
+    color: red;
+}
+
+.register-text{
+    width: 60%;
+    background-color: rgb(68, 66, 216);
+    color: yellow
+}
+
+.register-text h3 {
+    margin: 2em 2em 2em 6em; 
+    line-height: 1.5em;
+    font-weight: 200%;
+}
+
+.register-text h4 {
+    margin: 2em 2em 2em 2em; 
+    line-height: 1.5em;
+    font-weight: 200%;
+}
+
+.register-text h5 {
+    margin: 2em 2em 2em 7em; 
+    line-height: 1.5em;
+    font-weight: 200%;
+}
+
+.single-page {
+    background-image : url('./Images/Blog\ walpaper.jpg');
+    background-size: cover;
+    background-color: rgba(82, 167, 103, 0.267);
+    background-blend-mode: lighten;
+    color: white;
+    height: 100vh;
+}
+
+.single-title {
+    font-size: 56px;
+    padding: 2en 0em 0em 2em;
+    display:block;
+}
+
+.article {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 70%;
+    margin-top: 3em;
+    margin-left: 30%;
+    margin-bottom: 4em;
+    display: block;
+}
+
+.margin-single {
+    margin-left: 40%;
+}
